@@ -1,0 +1,2 @@
+# Simple Bootloader
+This project implements a bootloader in Assembly and C, which is responsible for loading the kernel of an operating system into memory and starting code execution in 32-bit protected mode.
