@@ -1,4 +1,4 @@
-gdt start:
+gdt_start:
     dq 0x0
 
 
