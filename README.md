@@ -28,3 +28,20 @@ This project implements a bootloader in Assembly and C, which is responsible for
 - **GDT configuration:** The “global-descriptor-table.asm” file defines the GDT required for the transition to 32-bit protected mode.
 - **Transition to Protected Mode:** The “switch-to-32bit.asm” makes the transition to protected mode by activating the protection bit in CR0.
 - **Kernel execution:** After the transition, control is passed to the kernel, which executes the main() function written in C.
+
+## Compilation and Execution Instructions
+Make sure you have `nasm`, `gcc` and the `qemu emulator` installed.
+
+#### Compilation and execution
+In the root of the project, run:
+
+```bash
+make
+```
+
+#### Cleaning
+To clear the generated files:
+
+```bash
+make clean
+```
